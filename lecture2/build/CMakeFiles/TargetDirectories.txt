@@ -1,4 +1,0 @@
-/home/chenyy/Documents/GitHub/sp_vision_tutorial_26/lecture2/build/CMakeFiles/fmt_test.dir
-/home/chenyy/Documents/GitHub/sp_vision_tutorial_26/lecture2/build/CMakeFiles/ImageScaling.dir
-/home/chenyy/Documents/GitHub/sp_vision_tutorial_26/lecture2/build/CMakeFiles/edit_cache.dir
-/home/chenyy/Documents/GitHub/sp_vision_tutorial_26/lecture2/build/CMakeFiles/rebuild_cache.dir
