@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DFMT_LOCALE -DFMT_SHARED
 
-CXX_INCLUDES = -I/usr/include/opencv4
+CXX_INCLUDES = -isystem /usr/include/opencv4
 
 CXX_FLAGS = 
 

@@ -129,6 +129,19 @@ fmt_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fmt_test.dir/build.make CMakeFiles/fmt_test.dir/build
 .PHONY : fmt_test/fast
 
+#=============================================================================
+# Target rules for targets named ImageScaling
+
+# Build rule for target.
+ImageScaling: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ImageScaling
+.PHONY : ImageScaling
+
+# fast build rule for target.
+ImageScaling/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageScaling.dir/build.make CMakeFiles/ImageScaling.dir/build
+.PHONY : ImageScaling/fast
+
 homework/fmt_test.o: homework/fmt_test.cpp.o
 .PHONY : homework/fmt_test.o
 
@@ -153,6 +166,54 @@ homework/fmt_test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fmt_test.dir/build.make CMakeFiles/fmt_test.dir/homework/fmt_test.cpp.s
 .PHONY : homework/fmt_test.cpp.s
 
+homework/main.o: homework/main.cpp.o
+.PHONY : homework/main.o
+
+# target to build an object file
+homework/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageScaling.dir/build.make CMakeFiles/ImageScaling.dir/homework/main.cpp.o
+.PHONY : homework/main.cpp.o
+
+homework/main.i: homework/main.cpp.i
+.PHONY : homework/main.i
+
+# target to preprocess a source file
+homework/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageScaling.dir/build.make CMakeFiles/ImageScaling.dir/homework/main.cpp.i
+.PHONY : homework/main.cpp.i
+
+homework/main.s: homework/main.cpp.s
+.PHONY : homework/main.s
+
+# target to generate assembly for a file
+homework/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageScaling.dir/build.make CMakeFiles/ImageScaling.dir/homework/main.cpp.s
+.PHONY : homework/main.cpp.s
+
+homework/tools.o: homework/tools.cpp.o
+.PHONY : homework/tools.o
+
+# target to build an object file
+homework/tools.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageScaling.dir/build.make CMakeFiles/ImageScaling.dir/homework/tools.cpp.o
+.PHONY : homework/tools.cpp.o
+
+homework/tools.i: homework/tools.cpp.i
+.PHONY : homework/tools.i
+
+# target to preprocess a source file
+homework/tools.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageScaling.dir/build.make CMakeFiles/ImageScaling.dir/homework/tools.cpp.i
+.PHONY : homework/tools.cpp.i
+
+homework/tools.s: homework/tools.cpp.s
+.PHONY : homework/tools.s
+
+# target to generate assembly for a file
+homework/tools.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ImageScaling.dir/build.make CMakeFiles/ImageScaling.dir/homework/tools.cpp.s
+.PHONY : homework/tools.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -161,10 +222,17 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ImageScaling"
 	@echo "... fmt_test"
 	@echo "... homework/fmt_test.o"
 	@echo "... homework/fmt_test.i"
 	@echo "... homework/fmt_test.s"
+	@echo "... homework/main.o"
+	@echo "... homework/main.i"
+	@echo "... homework/main.s"
+	@echo "... homework/tools.o"
+	@echo "... homework/tools.i"
+	@echo "... homework/tools.s"
 .PHONY : help
 
 
